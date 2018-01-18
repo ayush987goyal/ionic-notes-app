@@ -6,16 +6,19 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
+import { NoteService } from '../providers/note-service/note-service';
+
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { AddNotePage } from '../pages/add-note/add-note';
-import { NoteService } from '../providers/note-service/note-service';
+import { ViewNotePage } from './../pages/view-note/view-note';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    AddNotePage
+    AddNotePage,
+    ViewNotePage
   ],
   imports: [
     BrowserModule,
@@ -28,7 +31,8 @@ import { NoteService } from '../providers/note-service/note-service';
   entryComponents: [
     MyApp,
     HomePage,
-    AddNotePage
+    AddNotePage,
+    ViewNotePage
   ],
   providers: [
     StatusBar,

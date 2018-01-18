@@ -1,6 +1,6 @@
-page-add-note {
+page-view-note {
   ion-content {
-    background: url(../assets/imgs/bg-3.jpg) no-repeat center fixed;
+    background: url(../assets/imgs/bg-1.jpeg) no-repeat center fixed;
     background-size: cover;
     &:before {
       content: '';
@@ -10,7 +10,13 @@ page-add-note {
       bottom: 0;
       left: 0;
       background-image: linear-gradient(top bottom right, #02362c, #003199);
-      opacity: 0.6;
+      opacity: 0.3;
     }
+  }
+
+  .note-date {
+    color: #888;
+    font-size: 0.8em;
+    margin-bottom: 12px;
   }
 }
