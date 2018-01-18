@@ -1,6 +1,6 @@
 {
   "name": "my-notes",
-  "app_id": "",
+  "app_id": "ea2c058e",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
